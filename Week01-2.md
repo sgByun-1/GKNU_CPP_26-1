@@ -104,7 +104,6 @@ int main() {
 int CRect::Area()
 ```
 
-여기서
 
 - `CRect::` 는 **클래스 소속 함수임을 의미하는 범위 지정 연산자**
 
@@ -147,9 +146,7 @@ int main() {
 }
 ```
 
-### 설명
-
-이 예제는 **생성자(Constructor) 오버로딩**을 보여준다.
+ **생성자(Constructor) 오버로딩**을 보여준다.
 
 ---
 
@@ -220,7 +217,6 @@ int Area()
 | `private` | 클래스 내부에서만 접근 가능 |
 | `public` | 외부에서도 접근 가능 |
 
-이 예제에서는
 
 - `width`, `high` → `private`
 - `Area()` → `public`
